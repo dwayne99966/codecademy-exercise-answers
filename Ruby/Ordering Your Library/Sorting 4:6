@@ -1,2 +1,7 @@
 def alphabetize(arr, rev=false)
+arr.sort!
+return arr
 end
+numbers = [1,56,24,45,12,0]
+alphabetize(numbers)
+puts numbers

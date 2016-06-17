@@ -1,10 +1,12 @@
-def alphabetize(arr, rev=false)
-    if rev=true
-        alphabetize.sort {|book1, book2| book2 <=> book1}
-    else
-        alphabetize.sort! {|book1, book2| book1 <=> book2}
-        return a
+def alphabetize(arr, rev)
+    rev = False
+    arr.sort!
+
+    if rev == true
+     arr.reverse!   
     end
 end
 
-puts a
+numbers = array [1, 5, 2, 4, 3, 6, 8, 12, 9]
+
+puts numbers
